@@ -10,6 +10,8 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { BreadcrumpsComponent } from './shared/breadcrumps/breadcrumps.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { PagesComponent } from './pages/pages.component';
+import { GraphComponent } from './pages/graph/graph.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
     DashboardComponent,
     BreadcrumpsComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    PagesComponent,
+    GraphComponent
   ],
   imports: [
     BrowserModule,
